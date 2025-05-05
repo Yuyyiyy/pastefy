@@ -1,0 +1,7 @@
+addScriptButton("Your Button Name", function()
+    -- YOUR SCRIPT GOES HERElocal ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+for i = -1, 1200 do
+    ReplicatedStorage:WaitForChild("Guide"):FireServer()
+end
+end)
